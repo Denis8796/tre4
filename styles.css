@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(224, 230, 230);
+    font-size: 16px;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Делаем p коричневым и курсивом */
+/* p{ */
+    /* color:midnightblue; */
+    /* font-style: italic; */
+/* } */
+
+ .description img{
+    /* position: fixed; */
+    margin-top: 20px;
+    margin-left: 16px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(0,0,0,25);
+} 
+.description{
+    /* display:flex; */
+}
+
+.description img:hover{
+    background-color:rgb(155, 185, 155) ;
+}
+
+.description p{
+    color: rgb(112,112,112);
+    font-style: italic;
+}
+
+.main{
+    width: 80%;
+}
+
+r:nth-child(even){ 
+    background:#1D1AB2; 
+   } 
+   tr:nth-child(odd){ 
+    background:rgb(116, 233, 184); 
+   }
+
+.top-menu { 
+    position: relative; 
+    background: #fff; 
+    box-shadow: inset 0 0 10px rgb(159, 214, 193); 
+    position: sticky; 
+    top: 0; 
+    } 
+    .top-menu:before, 
+    .top-menu:after { 
+    content: ""; 
+    display: block; 
+    height: 1px; 
+    border-top: 3px solid #575350; 
+    border-bottom: 1px solid #575350; 
+    margin-bottom: 2px; 
+    } 
+    .top-menu:after { 
+    border-bottom: 3px solid #575350; 
+    border-top: 1px solid #575350; 
+    box-shadow: 0 2px 7px #ccc; 
+    margin-top: 2px; 
+    } 
+    .menu-main { 
+    list-style: none; 
+    padding: 0 30px; 
+    margin: 0; 
+    font-size: 18px; 
+    text-align: center; 
+    position: relative; 
+    } 
+    .menu-main:before, 
+    .menu-main:after { 
+    content: "\25C8"; 
+    line-height: 1; 
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    } 
+    .menu-main:before {left: 15px;} 
+    .menu-main:after {right: 15px;} 
+    .menu-main li { 
+    display: inline-block; 
+    padding: 5px 0; 
+    } 
+    .menu-main a { 
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 2px 5px; 
+    padding: 6px 15px; 
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 16px; 
+    color: #777777; 
+    border-bottom: 1px solid transparent; 
+    transition: .3s linear; 
+    } 
+    .menu-main .current, .menu-main a:hover { 
+    border-radius: 3px; 
+    background: #f3ece1; 
+    color: #313131; 
+    text-shadow: 0 1px 0 #fff; 
+    border-color: #c6c6c6
+    }
+
+    .form h1{
+        text-align: center;
+    }
+
+    .form h2{
+        text-align: center;
+    }
+
+    .form input{
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #ccc;
+        padding-top: 10px;
+        font-family: inherit;
+    }
+
+    .form h1{
+        text-align: center;
+        color: navy;
+    }
+
+    input[type="submit"]:hover{ 
+        outline: black solid 5px; 
+        border-radius: 20px; 
+       }
